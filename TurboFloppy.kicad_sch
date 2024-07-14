@@ -6,11 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "Intel 8255 Interface for the Commodore 16, 116 and Plus/4")
-		(date "2024-07-13")
+		(date "2024-07-14")
 		(rev "1git")
 		(company "SukkoPera")
 		(comment 1 "Based on the article published in Rádiótechnika 1988/12 by Ferenc Garay and Dr. János Rohonczy.")
 		(comment 2 "http://plus4world.powweb.com/publications/Radiotechnika_1988_december")
+		(comment 3 "Licensed under CC BY-NC-SA 4.0")
 	)
 	(lib_symbols
 		(symbol "74xx:74LS10"
@@ -6770,49 +6771,52 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:NPN"
-			(pin_numbers hide)
+		(symbol "Transistor_BJT:BC547"
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at -2.54 7.62 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "NPN"
-				(at -2.54 5.08 0)
+			(property "Value" "BC547"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 63.5 0 0)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-				(at 63.5 0 0)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6821,7 +6825,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "NPN"
+			(property "ki_keywords" "NPN Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6830,7 +6834,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Type" "GUMMELPOON"
+			(property "ki_fp_filters" "TO?92*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6839,31 +6843,13 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=C 2=B 3=E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NPN_0_1"
+			(symbol "BC547_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 0.635 0)
+						(xy 0 0) (xy 0.635 0)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -6876,30 +6862,6 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
-					)
-					(stroke
-						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -6954,8 +6916,8 @@
 					)
 				)
 			)
-			(symbol "NPN_1_1"
-				(pin open_collector line
+			(symbol "BC547_1_1"
+				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "C"
@@ -6975,7 +6937,7 @@
 				)
 				(pin input line
 					(at -5.08 0 0)
-					(length 2.54)
+					(length 5.08)
 					(name "B"
 						(effects
 							(font
@@ -6991,7 +6953,7 @@
 						)
 					)
 				)
-				(pin open_emitter line
+				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "E"
@@ -11583,6 +11545,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BC547")
+		(at 115.57 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13c36fdc-3074-4fbb-8b92-19025a5bea9b")
+		(property "Reference" "Q1"
+			(at 120.65 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547"
+			(at 120.65 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
+			(at 120.65 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(at 115.57 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+			(at 115.57 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4885575c-72ec-4784-91a2-0b9201ed1f5f")
+		)
+		(pin "2"
+			(uuid "0010e359-4187-4f1e-a3dc-e4457141ede0")
+		)
+		(pin "3"
+			(uuid "5cbed9ac-6bac-4e20-aa7e-d5aa343d8a25")
+		)
+		(instances
+			(project ""
+				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS10")
 		(at 256.54 142.24 0)
 		(unit 3)
@@ -12105,7 +12143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ec751ff-bb9c-4b43-87b4-de8dfebc0cc1")
-		(property "Reference" "CN2"
+		(property "Reference" "CN3"
 			(at 259.08 41.91 0)
 			(effects
 				(font
@@ -12235,7 +12273,7 @@
 		(instances
 			(project ""
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
-					(reference "CN2")
+					(reference "CN3")
 					(unit 1)
 				)
 			)
@@ -13481,7 +13519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82052c49-837f-49ef-b97a-91d51648bc6e")
-		(property "Reference" "J1"
+		(property "Reference" "CN1"
 			(at 54.61 24.13 0)
 			(effects
 				(font
@@ -13489,7 +13527,7 @@
 				)
 			)
 		)
-		(property "Value" "C16-Exp-Port"
+		(property "Value" "EXPANSION_PORT"
 			(at 54.61 26.67 0)
 			(effects
 				(font
@@ -13677,7 +13715,7 @@
 		(instances
 			(project ""
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
-					(reference "J1")
+					(reference "CN1")
 					(unit 1)
 				)
 			)
@@ -13744,105 +13782,6 @@
 			(project "TurboFloppy"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 115.57 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a94d4f4-9ba5-43c7-9e87-e67758fdbd90")
-		(property "Reference" "Q1"
-			(at 111.506 39.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 109.982 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
-			(at 179.07 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 179.07 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 115.57 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 115.57 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 115.57 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 115.57 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2953251f-419c-4f9d-ac11-d06c5e044de9")
-		)
-		(pin "2"
-			(uuid "f498ea63-8d70-4461-b451-841875242512")
-		)
-		(pin "1"
-			(uuid "7c9a1f54-c318-4f47-b5d3-5afd94afeb9d")
-		)
-		(instances
-			(project ""
-				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -14122,7 +14061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e5a8b27-7aa4-4a42-ba46-0add978629cc")
-		(property "Reference" "CN1"
+		(property "Reference" "CN2"
 			(at 217.17 60.9599 0)
 			(effects
 				(font
@@ -14254,7 +14193,7 @@
 		(instances
 			(project ""
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
-					(reference "CN1")
+					(reference "CN2")
 					(unit 1)
 				)
 			)
