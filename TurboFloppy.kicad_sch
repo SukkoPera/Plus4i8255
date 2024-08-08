@@ -9,7 +9,7 @@
 		(date "2024-07-14")
 		(rev "1git")
 		(company "SukkoPera")
-		(comment 1 "Based on the article published in Rádiótechnika 1988/12 by Ferenc Garay and Dr. János Rohonczy.")
+		(comment 1 "Based on the article published in Rádiótechnika 1988/12 by Ferenc Garay and Dr. János Rohonczy")
 		(comment 2 "http://plus4world.powweb.com/publications/Radiotechnika_1988_december")
 		(comment 3 "Licensed under CC BY-NC-SA 4.0")
 	)
@@ -11552,10 +11552,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "13c36fdc-3074-4fbb-8b92-19025a5bea9b")
 		(property "Reference" "Q1"
-			(at 120.65 35.5599 0)
+			(at 111.506 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11564,7 +11563,7 @@
 			)
 		)
 		(property "Value" "BC547"
-			(at 120.65 38.0999 0)
+			(at 107.696 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
