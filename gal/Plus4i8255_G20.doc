@@ -1,0 +1,83 @@
+
+*******************************************************************************
+                                Plus4i8255_G20
+*******************************************************************************
+
+CUPL(WM)        5.0a Serial# 60008009
+Device          g20v8as  Library DLIB-h-40-1
+Created         Thu Aug 08 15:36:40 2024
+Name            Plus4i8255_G20
+Partno          TBD
+Revision        02
+Date            08/08/2024
+Designer        SukkoPera
+Company         OpenRetroWorks
+Assembly        None
+Location        France
+
+===============================================================================
+                            Expanded Product Terms
+===============================================================================
+
+_addressed =>
+    !a2 & !a3 & !a4 & !a5 & !a6 & !a7 & !a8 & a9 & a10 & a11 & a12 & a13 & 
+      a14 & a15
+
+addr =>
+    a15 , a14 , a13 , a12 , a11 , a10 , a9 , a8 , a7 , a6 , a5 , a4 , a3 , a2
+
+cs8255 =>
+    !a2 & !a3 & !a4 & !a5 & !a6 & !a7 & !a8 & a9 & a10 & a11 & a12 & a13 & 
+      a14 & a15
+
+rd8255 =>
+    !a2 & !a3 & !a4 & !a5 & !a6 & !a7 & !a8 & a9 & a10 & a11 & a12 & a13 & 
+      a14 & a15 & ba & phi2 & rw
+
+reset_out =>
+    !reset_in
+
+wr8255 =>
+    !a2 & !a3 & !a4 & !a5 & !a6 & !a7 & !a8 & a9 & a10 & a11 & a12 & a13 & 
+      a14 & a15 & phi2 & !rw
+
+
+===============================================================================
+                                 Symbol Table
+===============================================================================
+
+Pin Variable                                    Pterms   Max     Min    
+Pol   Name              Ext     Pin     Type     Used   Pterms  Level   
+--- --------            ---     ---     ----    ------  ------  -----   
+
+    _addressed                  0        I        1       -       -     
+    a2                          11       V        -       -       -     
+    a3                          14       V        -       -       -     
+    a4                          10       V        -       -       -     
+    a5                          9        V        -       -       -     
+    a6                          8        V        -       -       -     
+    a7                          7        V        -       -       -     
+    a8                          6        V        -       -       -     
+    a9                          15       V        -       -       -     
+    a10                         5        V        -       -       -     
+    a11                         20       V        -       -       -     
+    a12                         4        V        -       -       -     
+    a13                         21       V        -       -       -     
+    a14                         3        V        -       -       -     
+    a15                         22       V        -       -       -     
+    addr                        0        F        -       -       -     
+    ba                          23       V        -       -       -     
+    cs8255                      18       V        1       8       2     
+    phi2                        13       V        -       -       -     
+    rd8255                      17       V        1       8       2     
+    reset_in                    1        V        -       -       -     
+    reset_out                   19       V        1       8       2     
+    rw                          2        V        -       -       -     
+    wr8255                      16       V        1       8       2     
+
+
+LEGEND    D : default variable         F : field      G : group
+          I : intermediate variable    N : node       M : extended node
+          U : undefined                V : variable   X : extended variable
+          T : function
+
