@@ -2400,7 +2400,7 @@
 				)
 			)
 			(symbol "C16-Exp-Port_1_1"
-				(pin passive line
+				(pin power_out line
 					(at -19.05 30.48 0)
 					(length 7.62)
 					(name "GND"
@@ -2418,7 +2418,7 @@
 						)
 					)
 				)
-				(pin passive inverted
+				(pin output inverted
 					(at -19.05 7.62 0)
 					(length 7.62)
 					(name "/CS0"
@@ -2436,7 +2436,7 @@
 						)
 					)
 				)
-				(pin passive inverted
+				(pin output inverted
 					(at -19.05 5.08 0)
 					(length 7.62)
 					(name "/CAS"
@@ -2454,7 +2454,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at -19.05 2.54 0)
 					(length 7.62)
 					(name "MUX"
@@ -2472,7 +2472,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at -19.05 0 0)
 					(length 7.62)
 					(name "BA"
@@ -2490,7 +2490,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin bidirectional line
 					(at -19.05 -2.54 0)
 					(length 7.62)
 					(name "D7"
@@ -2508,7 +2508,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin bidirectional line
 					(at -19.05 -5.08 0)
 					(length 7.62)
 					(name "D6"
@@ -2526,7 +2526,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin bidirectional line
 					(at -19.05 -7.62 0)
 					(length 7.62)
 					(name "D5"
@@ -2544,7 +2544,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin bidirectional line
 					(at -19.05 -10.16 0)
 					(length 7.62)
 					(name "D4"
@@ -2562,7 +2562,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin bidirectional line
 					(at -19.05 -12.7 0)
 					(length 7.62)
 					(name "D3"
@@ -2580,7 +2580,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin bidirectional line
 					(at -19.05 -15.24 0)
 					(length 7.62)
 					(name "D2"
@@ -2598,7 +2598,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at -19.05 27.94 0)
 					(length 7.62)
 					(name "VCC"
@@ -2616,7 +2616,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin bidirectional line
 					(at -19.05 -17.78 0)
 					(length 7.62)
 					(name "D1"
@@ -2634,7 +2634,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin bidirectional line
 					(at -19.05 -20.32 0)
 					(length 7.62)
 					(name "D0"
@@ -2652,7 +2652,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at -19.05 -22.86 0)
 					(length 7.62)
 					(name "AEC"
@@ -2670,7 +2670,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at -19.05 -25.4 0)
 					(length 7.62)
 					(name "EXT_AUDIO"
@@ -2688,7 +2688,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output clock
 					(at -19.05 -27.94 0)
 					(length 7.62)
 					(name "PHI2"
@@ -2742,7 +2742,7 @@
 						)
 					)
 				)
-				(pin passive inverted
+				(pin open_collector inverted
 					(at -19.05 22.86 0)
 					(length 7.62)
 					(name "/IRQ"
@@ -2760,7 +2760,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at -19.05 20.32 0)
 					(length 7.62)
 					(name "R/W"
@@ -2778,7 +2778,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at -19.05 17.78 0)
 					(length 7.62)
 					(name "C1HI"
@@ -2796,7 +2796,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at -19.05 15.24 0)
 					(length 7.62)
 					(name "C2LOW"
@@ -2814,7 +2814,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at -19.05 12.7 0)
 					(length 7.62)
 					(name "C2HI"
@@ -2832,7 +2832,7 @@
 						)
 					)
 				)
-				(pin passive inverted
+				(pin output inverted
 					(at -19.05 10.16 0)
 					(length 7.62)
 					(name "/CS1"
@@ -2886,7 +2886,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 19.05 27.94 180)
 					(length 7.62)
 					(name "C1LOW"
@@ -2922,10 +2922,10 @@
 						)
 					)
 				)
-				(pin passive inverted
+				(pin open_collector inverted
 					(at 19.05 25.4 180)
 					(length 7.62)
-					(name "/BRESET"
+					(name "/RESET"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2958,7 +2958,7 @@
 						)
 					)
 				)
-				(pin passive inverted
+				(pin output inverted
 					(at 19.05 22.86 180)
 					(length 7.62)
 					(name "/RAS"
@@ -2976,7 +2976,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output clock
 					(at 19.05 20.32 180)
 					(length 7.62)
 					(name "PHI0"
@@ -2994,7 +2994,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 19.05 17.78 180)
 					(length 7.62)
 					(name "A15"
@@ -3012,7 +3012,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 19.05 15.24 180)
 					(length 7.62)
 					(name "A14"
@@ -3030,7 +3030,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 19.05 12.7 180)
 					(length 7.62)
 					(name "A13"
@@ -3048,7 +3048,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 19.05 10.16 180)
 					(length 7.62)
 					(name "A12"
@@ -3066,7 +3066,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 19.05 7.62 180)
 					(length 7.62)
 					(name "A11"
@@ -3084,7 +3084,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 19.05 5.08 180)
 					(length 7.62)
 					(name "A10"
@@ -3102,7 +3102,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 19.05 2.54 180)
 					(length 7.62)
 					(name "A9"
@@ -3120,7 +3120,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 19.05 0 180)
 					(length 7.62)
 					(name "A8"
@@ -3138,7 +3138,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 19.05 -2.54 180)
 					(length 7.62)
 					(name "A7"
@@ -3156,7 +3156,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 19.05 -5.08 180)
 					(length 7.62)
 					(name "A6"
@@ -3174,7 +3174,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 19.05 -7.62 180)
 					(length 7.62)
 					(name "A5"
@@ -3192,7 +3192,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 19.05 -10.16 180)
 					(length 7.62)
 					(name "A4"
@@ -3210,7 +3210,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 19.05 -12.7 180)
 					(length 7.62)
 					(name "A3"
@@ -3228,7 +3228,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 19.05 -15.24 180)
 					(length 7.62)
 					(name "A2"
@@ -3246,7 +3246,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 19.05 -17.78 180)
 					(length 7.62)
 					(name "A1"
@@ -3264,7 +3264,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 19.05 -20.32 180)
 					(length 7.62)
 					(name "A0"
@@ -7273,12 +7273,6 @@
 		(uuid "03de5f14-53d4-4c1e-b022-e5114516dafe")
 	)
 	(junction
-		(at 79.375 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "224c89bf-9ae1-4090-88b7-72f6b5cff49a")
-	)
-	(junction
 		(at 35.56 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7337,6 +7331,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c5bfd00-51bf-4f24-b9fe-6582341cefc2")
+	)
+	(junction
+		(at 76.2 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8de9ff76-fc0e-4345-b710-a2e8099f2a43")
 	)
 	(junction
 		(at 250.19 81.28)
@@ -7473,6 +7473,16 @@
 			(type default)
 		)
 		(uuid "04c1732b-319d-45eb-9ddc-9c8c90344bbc")
+	)
+	(wire
+		(pts
+			(xy 76.2 34.29) (xy 76.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0504ed76-c5c9-4a94-8c17-e79c73c1e095")
 	)
 	(wire
 		(pts
@@ -7633,6 +7643,16 @@
 			(type default)
 		)
 		(uuid "196d551c-8f7d-41d8-8ca2-3e4916ca807e")
+	)
+	(wire
+		(pts
+			(xy 73.66 95.25) (xy 76.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bff3fc6-0cf2-4820-9b1e-75bb057d94bc")
 	)
 	(wire
 		(pts
@@ -7866,16 +7886,6 @@
 	)
 	(wire
 		(pts
-			(xy 79.375 95.25) (xy 73.66 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35b88914-dc55-4c90-93ad-6f123683d9b0")
-	)
-	(wire
-		(pts
 			(xy 170.18 35.56) (xy 180.34 35.56)
 		)
 		(stroke
@@ -7983,16 +7993,6 @@
 			(type default)
 		)
 		(uuid "3fd4a00c-3cb3-4317-899d-3cf3799ffdea")
-	)
-	(wire
-		(pts
-			(xy 79.375 34.29) (xy 79.375 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40873bc5-4b71-46eb-920a-f2300eb1c695")
 	)
 	(wire
 		(pts
@@ -8173,6 +8173,16 @@
 			(type default)
 		)
 		(uuid "52b8b419-273c-4843-9b0f-b361a4eca86c")
+	)
+	(wire
+		(pts
+			(xy 76.2 95.25) (xy 76.2 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52fef46c-8f92-4af2-9acd-a6ac126d2948")
 	)
 	(wire
 		(pts
@@ -9336,7 +9346,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 95.25) (xy 30.48 107.95)
+			(xy 30.48 95.25) (xy 30.48 105.41)
 		)
 		(stroke
 			(width 0)
@@ -9506,7 +9516,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 34.29) (xy 79.375 34.29)
+			(xy 73.66 34.29) (xy 76.2 34.29)
 		)
 		(stroke
 			(width 0)
@@ -9623,16 +9633,6 @@
 			(type default)
 		)
 		(uuid "fbed4419-0b05-4868-8c2c-b10f46429a4b")
-	)
-	(wire
-		(pts
-			(xy 79.375 95.25) (xy 79.375 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd7310a5-b603-4149-8363-8fbe209cfb05")
 	)
 	(wire
 		(pts
@@ -11147,17 +11147,6 @@
 			(justify right bottom)
 		)
 		(uuid "f2f471fb-5d98-4d27-a0d0-b6b14dd0fdef")
-	)
-	(label "a00"
-		(at 87.63 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fadba6e0-7e49-4169-a94d-636f72cc3234")
 	)
 	(label "pb2"
 		(at 274.32 76.2 180)
@@ -13338,16 +13327,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 107.95 0)
+		(at 30.48 105.41 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "758c9829-d1c4-47bf-9d05-25d6f13e1ec2")
 		(property "Reference" "#PWR04"
-			(at 30.48 114.3 0)
+			(at 30.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13356,7 +13345,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 113.03 0)
+			(at 30.48 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13364,7 +13353,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 107.95 0)
+			(at 30.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13373,7 +13362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 107.95 0)
+			(at 30.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13382,7 +13371,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 107.95 0)
+			(at 30.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13534,7 +13523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TurboFloppy:C16_Cart_Conn"
+		(property "Footprint" "MODULE"
 			(at 54.61 106.68 0)
 			(effects
 				(font
@@ -14935,7 +14924,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 79.375 107.95 0)
+		(at 76.2 105.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14945,7 +14934,7 @@
 		(fields_autoplaced yes)
 		(uuid "da9f379a-f753-43af-8e62-25c8b13fe31c")
 		(property "Reference" "#PWR05"
-			(at 79.375 114.3 0)
+			(at 76.2 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14954,7 +14943,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 79.375 113.03 0)
+			(at 76.2 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14962,7 +14951,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 79.375 107.95 0)
+			(at 76.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14971,7 +14960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 79.375 107.95 0)
+			(at 76.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14980,7 +14969,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 79.375 107.95 0)
+			(at 76.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
