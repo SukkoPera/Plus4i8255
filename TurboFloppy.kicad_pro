@@ -59,10 +59,8 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|126405627|74908001|639cd52f-bc49-4124-9ef2-469fc84a1da4|cfc0cfc1-3045-4d79-8ca7-b29a19adac22",
-        "courtyards_overlap|166899999|76443459|214c6ba5-5c13-4fb6-9867-b5ffdb230697|cfc0cfc1-3045-4d79-8ca7-b29a19adac22",
-        "lib_footprint_mismatch|123190000|73660000|639cd52f-bc49-4124-9ef2-469fc84a1da4|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|168910000|73660000|214c6ba5-5c13-4fb6-9867-b5ffdb230697|00000000-0000-0000-0000-000000000000"
+        "courtyards_overlap|126405627|71098001|639cd52f-bc49-4124-9ef2-469fc84a1da4|cfc0cfc1-3045-4d79-8ca7-b29a19adac22",
+        "courtyards_overlap|166899999|72633459|cfc0cfc1-3045-4d79-8ca7-b29a19adac22|214c6ba5-5c13-4fb6-9867-b5ffdb230697"
       ],
       "meta": {
         "version": 2
@@ -91,7 +89,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
