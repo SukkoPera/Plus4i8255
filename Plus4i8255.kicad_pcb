@@ -216,7 +216,7 @@
 		(property ki_fp_filters "R?Array?SIP*")
 		(path "/5b1c848b-c4e0-46ce-b3a3-e29a574d15ef")
 		(sheetname "Root")
-		(sheetfile "TurboFloppy.kicad_sch")
+		(sheetfile "Plus4i8255.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.44 -1.4)
@@ -551,7 +551,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/631cbe17-7549-41e9-a588-09a1603eb47c")
 		(sheetname "Root")
-		(sheetfile "TurboFloppy.kicad_sch")
+		(sheetfile "Plus4i8255.kicad_sch")
 		(zone_connect 2)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -669,7 +669,7 @@
 		(property ki_fp_filters "DIP*W15.24mm* PDIP*W15.24mm*")
 		(path "/565eac86-e188-4f21-84bd-4d4317d8e72b")
 		(sheetname "Root")
-		(sheetfile "TurboFloppy.kicad_sch")
+		(sheetfile "Plus4i8255.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.44 49.65)
@@ -1446,7 +1446,7 @@
 		(property ki_fp_filters "R?Array?SIP*")
 		(path "/67513d43-3a73-4933-823f-1106e7aa54b4")
 		(sheetname "Root")
-		(sheetfile "TurboFloppy.kicad_sch")
+		(sheetfile "Plus4i8255.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.44 -1.4)
@@ -1781,7 +1781,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/a53ff7ff-27c5-4f06-acd7-e56a38400d67")
 		(sheetname "Root")
-		(sheetfile "TurboFloppy.kicad_sch")
+		(sheetfile "Plus4i8255.kicad_sch")
 		(zone_connect 2)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -1899,7 +1899,7 @@
 		(property ki_fp_filters "R?Array?SIP*")
 		(path "/67e17e13-8947-489b-bbf9-ad01d868c1e9")
 		(sheetname "Root")
-		(sheetfile "TurboFloppy.kicad_sch")
+		(sheetfile "Plus4i8255.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 21.76 1.4)
@@ -2233,7 +2233,7 @@
 		(property ki_fp_filters "DIP* PDIP*")
 		(path "/019c420e-1729-45a3-b85e-eca284c1c890")
 		(sheetname "Root")
-		(sheetfile "TurboFloppy.kicad_sch")
+		(sheetfile "Plus4i8255.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 9.06 -1.39)
@@ -2834,7 +2834,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b6ea2e26-20e4-4f30-8d4e-b1dd3220177c")
 		(sheetname "Root")
-		(sheetfile "TurboFloppy.kicad_sch")
+		(sheetfile "Plus4i8255.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.12 -1.37)
@@ -3069,7 +3069,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4d82f498-59a0-419a-99ec-b819f0e163f3")
 		(sheetname "Root")
-		(sheetfile "TurboFloppy.kicad_sch")
+		(sheetfile "Plus4i8255.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.12 1.37)
@@ -3234,7 +3234,7 @@
 			)
 		)
 	)
-	(footprint "TurboFloppy:C16_Cart_Conn"
+	(footprint "Plus4i8255:C16_Cart_Conn"
 		(layer "F.Cu")
 		(uuid "c1554455-c8f8-40ab-90de-8b2409f46395")
 		(at 146.053 132.588)
@@ -3262,7 +3262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TurboFloppy:C16_Cart_Conn"
+		(property "Footprint" "Plus4i8255:C16_Cart_Conn"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3300,7 +3300,7 @@
 		)
 		(path "/82052c49-837f-49ef-b97a-91d51648bc6e")
 		(sheetname "Root")
-		(sheetfile "TurboFloppy.kicad_sch")
+		(sheetfile "Plus4i8255.kicad_sch")
 		(zone_connect 2)
 		(attr through_hole)
 		(fp_line
@@ -4639,7 +4639,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/ad7ae201-8e73-4554-878e-7d5353a16a47")
 		(sheetname "Root")
-		(sheetfile "TurboFloppy.kicad_sch")
+		(sheetfile "Plus4i8255.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 39.43)
@@ -5256,7 +5256,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/b9352a49-4111-43e5-b54a-90acfad00279")
 		(sheetname "Root")
-		(sheetfile "TurboFloppy.kicad_sch")
+		(sheetfile "Plus4i8255.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 3.601 -0.284)
@@ -6545,7 +6545,7 @@
 			)
 		)
 	)
-	(footprint "TurboFloppy:cc_by_nc_sa"
+	(footprint "Plus4i8255:cc_by_nc_sa"
 		(layer "B.Cu")
 		(uuid "6dc0ccc5-9859-4a1f-b6f3-0901c43028d9")
 		(at 161.925 125.222 180)
@@ -6575,7 +6575,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "TurboFloppy:cc_by_nc_sa"
+		(property "Footprint" "Plus4i8255:cc_by_nc_sa"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -6616,7 +6616,7 @@
 		)
 		(path "/047bb64d-2ad0-4f84-b659-af01299283ae")
 		(sheetname "Root")
-		(sheetfile "TurboFloppy.kicad_sch")
+		(sheetfile "Plus4i8255.kicad_sch")
 		(attr through_hole)
 		(fp_poly
 			(pts

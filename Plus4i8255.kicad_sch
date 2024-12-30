@@ -8413,7 +8413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TurboFloppy:cc_by_nc_sa"
+		(property "Footprint" "Plus4i8255:cc_by_nc_sa"
 			(at 128.27 193.04 0)
 			(effects
 				(font
@@ -8507,7 +8507,7 @@
 			(uuid "f515d92d-84ea-4b1f-9be1-c1f14e8c0b13")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "#PWR011")
 					(unit 1)
@@ -8573,7 +8573,7 @@
 			(uuid "2e48941c-f2af-40b3-8699-de46a0463d4a")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "#PWR026")
 					(unit 1)
@@ -8639,7 +8639,7 @@
 			(uuid "2e79e1a8-4abc-4cac-9e38-81efc9e898dc")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "#PWR07")
 					(unit 1)
@@ -8705,7 +8705,7 @@
 			(uuid "9aad087e-5682-4fc6-b7e3-1e8de890ea6e")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "#PWR028")
 					(unit 1)
@@ -8771,7 +8771,7 @@
 			(uuid "9cf81f85-dbeb-4546-b1be-fa66f9392d32")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "#PWR023")
 					(unit 1)
@@ -8837,7 +8837,7 @@
 			(uuid "f6c404c0-2fe9-42b1-88ba-563828123286")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "#PWR019")
 					(unit 1)
@@ -8903,7 +8903,7 @@
 			(uuid "00cacb97-1068-4090-a28d-4f91a4bff2e0")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "#PWR06")
 					(unit 1)
@@ -8973,7 +8973,7 @@
 			(uuid "98e7b1a0-e54b-46a6-9024-85cc062d8f22")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "C2")
 					(unit 1)
@@ -9039,7 +9039,7 @@
 			(uuid "e52259fd-f0bf-4126-aca6-887ce8c93e69")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "#PWR024")
 					(unit 1)
@@ -9105,7 +9105,7 @@
 			(uuid "d2c7f0f5-111e-4c49-9933-013a4dc9aa5a")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "#PWR010")
 					(unit 1)
@@ -9513,7 +9513,7 @@
 			(uuid "a768848c-2421-45a7-93c0-41487b4cac16")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "H2")
 					(unit 1)
@@ -9579,7 +9579,7 @@
 			(uuid "9781e9b8-ee80-4b2a-8abb-f6cf85b8b4ff")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "#PWR09")
 					(unit 1)
@@ -9670,7 +9670,7 @@
 			(uuid "54f25419-b5d2-4cfd-aa69-8758cdaf1131")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "RN3")
 					(unit 1)
@@ -9761,7 +9761,7 @@
 			(uuid "c2049a9f-7bba-45f7-8dfe-2229e37fbf23")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "RN2")
 					(unit 1)
@@ -9827,7 +9827,7 @@
 			(uuid "d7c61e5a-1d9c-4190-9f85-4095414a8205")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "#PWR04")
 					(unit 1)
@@ -9861,7 +9861,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TurboFloppy:C16_Cart_Conn"
+		(property "Footprint" "Plus4i8255:C16_Cart_Conn"
 			(at 52.07 115.57 0)
 			(effects
 				(font
@@ -10105,7 +10105,7 @@
 			(uuid "aebdd740-c081-48af-9e0c-c4d320e4123d")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "#PWR025")
 					(unit 1)
@@ -10171,7 +10171,7 @@
 			(uuid "8061dbf3-5478-454e-af28-fa4d8ec2ca8e")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "#PWR022")
 					(unit 1)
@@ -10466,7 +10466,7 @@
 			(uuid "47620046-4043-4e51-801f-86fe1bc6be7c")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "C1")
 					(unit 1)
@@ -10532,7 +10532,7 @@
 			(uuid "0d038ad4-a5df-486c-abfb-4c7a08334f8f")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "#PWR03")
 					(unit 1)
@@ -10669,7 +10669,7 @@
 			(uuid "afb67506-7d4e-4d10-934e-92945445c128")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "#PWR05")
 					(unit 1)
@@ -10735,7 +10735,7 @@
 			(uuid "8dd28a5b-e9e2-496d-ba37-23599858fe57")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "#PWR027")
 					(unit 1)
@@ -10801,7 +10801,7 @@
 			(uuid "539fd4bb-8b99-4370-b5f9-00402fbf8307")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "#PWR020")
 					(unit 1)
@@ -10868,7 +10868,7 @@
 			(uuid "38a9a8e2-0ddf-4700-8ae9-6a90e603782b")
 		)
 		(instances
-			(project "TurboFloppy"
+			(project "Plus4i8255"
 				(path "/0a31112a-e046-4d46-8b9e-0685d05e37f7"
 					(reference "#PWR08")
 					(unit 1)

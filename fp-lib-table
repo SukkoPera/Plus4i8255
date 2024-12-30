@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "TurboFloppy")(type "KiCad")(uri "${KIPRJMOD}/TurboFloppy.pretty")(options "")(descr ""))
+  (lib (name "Plus4i8255")(type "KiCad")(uri "${KIPRJMOD}/Plus4i8255.pretty")(options "")(descr ""))
 )
