@@ -9,6 +9,9 @@ of 12 and used in 3 major modes of operation.
 
 Plus4i8255 is based on the [article published in Rádiótechnika 1988/12](https://plus4world.powweb.com/publications/Radiotechnika_1988_december) by Ferenc Garay and Dr. János Rohonczy with a few improvements: the board has been made much smaller, the ICs doing address decoding have been turned into a GAL for easy reconfigurability (both GAL20 and GAL22 are supported) and pull-up resistors have been added on all inputs.
 
+## Assembly
+Intel 8255 chips can all be bought supercheap on AliExpress & similar sites. There are only a couple of other components, making this board very affordable to build for everyone.
+
 ## Software
 The board is generic and can be used for a multitude of purposes, but its most common usage back in the day was to connect a 1541 drive in a parallel fashion, making it faster when used with software such as [Port-Turbo V1](https://plus4world.powweb.com/software/Port-Turbo_V1) or [Port-Backup](https://plus4world.powweb.com/software/Port-Backup).
 
