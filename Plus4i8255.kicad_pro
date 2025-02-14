@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 5.0,
-          "width": 5.0
+          "drill": 0.0,
+          "height": 0.5,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,6 +60,8 @@
       ],
       "drc_exclusions": [
         "courtyards_overlap|126405627|71098001|639cd52f-bc49-4124-9ef2-469fc84a1da4|cfc0cfc1-3045-4d79-8ca7-b29a19adac22",
+        "courtyards_overlap|135484621|90723001|2916a565-1477-4d44-abb9-671118931da8|fa6d1393-310b-4fe2-b886-1ace2afce891",
+        "courtyards_overlap|138150001|89198001|2916a565-1477-4d44-abb9-671118931da8|8a4e567f-9d0d-442d-80f0-182bf93bc050",
         "courtyards_overlap|166899999|72633459|214c6ba5-5c13-4fb6-9867-b5ffdb230697|cfc0cfc1-3045-4d79-8ca7-b29a19adac22"
       ],
       "meta": {
@@ -232,12 +234,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|711200|533400|6c30ee0a-0a40-4292-8b43-320d6be93f1b|4ff397af-4bdb-434a-b16c-2bb2f6cf4ea7|/0a31112a-e046-4d46-8b9e-0685d05e37f7|/0a31112a-e046-4d46-8b9e-0685d05e37f7|/0a31112a-e046-4d46-8b9e-0685d05e37f7",
-      "pin_to_pin|711200|584200|69165981-2167-4699-8f33-36a872c8d07c|1d7317af-d703-4840-b7d5-24fb4180f76e|/0a31112a-e046-4d46-8b9e-0685d05e37f7|/0a31112a-e046-4d46-8b9e-0685d05e37f7|/0a31112a-e046-4d46-8b9e-0685d05e37f7",
-      "pin_to_pin|711200|736600|1d74751a-1926-4ae9-a3cb-fa3acbc5012e|27a76376-1a04-4f22-99f0-5a09d287319b|/0a31112a-e046-4d46-8b9e-0685d05e37f7|/0a31112a-e046-4d46-8b9e-0685d05e37f7|/0a31112a-e046-4d46-8b9e-0685d05e37f7",
-      "pin_to_pin|711200|787400|146e09a5-1d41-49f6-b721-b763e655ae9e|758dc7f2-bef2-405a-946c-e568553a63c2|/0a31112a-e046-4d46-8b9e-0685d05e37f7|/0a31112a-e046-4d46-8b9e-0685d05e37f7|/0a31112a-e046-4d46-8b9e-0685d05e37f7"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -505,6 +502,10 @@
       {
         "netclass": "Power",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(J2-P*)"
       }
     ]
   },
