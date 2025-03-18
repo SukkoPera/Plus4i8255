@@ -16,7 +16,7 @@ Intel 8255 chips can all be bought supercheap on AliExpress & similar sites. The
 The board is generic and can be used for a multitude of purposes, but its most common usage back in the day was to connect a 1541 drive in a parallel fashion, making it faster when used with software such as [Port-Turbo V1](https://plus4world.powweb.com/software/Port-Turbo_V1) or [Port-Backup](https://plus4world.powweb.com/software/Port-Backup).
 
 ## Programming
-The board exposes the four 8255 registers at $FE03:
+The board exposes the four 8255 registers at $FE00-$FE03:
 |Address | Description
 |-----|----------------|
 |$FE00|Port A Register |
