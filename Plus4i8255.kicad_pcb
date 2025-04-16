@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Intel 8255 Interface for the Commodore 16, 116 and Plus/4")
-		(date "2024-08-08")
-		(rev "2git")
+		(date "2025-04-16")
+		(rev "3")
 		(company "SukkoPera")
 		(comment 1 "Based on the article published in Rádiótechnika 1988/12 by Ferenc Garay and Dr. János Rohonczy")
 		(comment 2 "http://plus4world.powweb.com/publications/Radiotechnika_1988_december")
@@ -9160,7 +9160,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "V2"
+	(gr_text "V3"
 		(at 125.079762 127.889 0)
 		(layer "B.SilkS")
 		(uuid "bf76649d-19d9-4f06-88d7-d530abf3df2b")

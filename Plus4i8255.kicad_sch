@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Intel 8255 Interface for the Commodore 16, 116 and Plus/4")
-		(date "2025-02-14")
-		(rev "1git")
+		(date "2025-04-16")
+		(rev "3")
 		(company "SukkoPera")
 		(comment 1 "Based on the article published in Rádiótechnika 1988/12 by Ferenc Garay and Dr. János Rohonczy")
 		(comment 2 "http://plus4world.powweb.com/publications/Radiotechnika_1988_december")
