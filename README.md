@@ -15,7 +15,11 @@ Intel 8255 chips can all be bought supercheap on AliExpress & similar sites. The
 ## Software
 The board is generic and can be used for a multitude of purposes, but its most common usage back in the day was to connect a 1541 drive in a parallel fashion, making it faster when used with software such as [Port-Turbo V1](https://plus4world.powweb.com/software/Port-Turbo_V1) or [Port-Backup](https://plus4world.powweb.com/software/Port-Backup).
 
+A simple program to test all the board I/O pins (in Mode 1) can be found in the Release area.
+
 ## Programming
+The 8255 is a relatively complex chip with 3 different modes of operation. The datasheet is your friend, those for a few different chips are provided in the [doc directory](doc/). Make sure to pick the one corresponding to your target chip and read it carefully.
+
 The board exposes the four 8255 registers at $FE00-$FE03:
 |Address | Description
 |-----|----------------|
@@ -24,6 +28,7 @@ The board exposes the four 8255 registers at $FE00-$FE03:
 |$FE02|Port C Register |
 |$FE03|Control Register|
 
+Note that, while on some modern chip all registers can be read and written to, for compatibility's sake you should assume that the Control Register can only be written to, as is the case with most (older) 8255 chips.
 
 ## Releases
 If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/Plus4i8255/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.
