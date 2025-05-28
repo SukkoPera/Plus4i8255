@@ -1,0 +1,30 @@
+10 gosub 9000: rem initialize
+20 let a$="this is the text to be printed"
+30 gosub 9100: rem lprint a$
+40 gosub 9200: rem cr+lf
+50 gosub 9300: rem ff
+60 end
+9000 rem initialize
+9010 poke 65027,152
+9020 return
+9100 rem lprint a$
+9110 for n=1 to len(a$)
+9120 let ch=asc(mid$(a$,n,1))
+9130 poke 65025,ch
+9140 poke 65026,255: rem /strobe 0
+9150 poke 65026,0: rem /strobe 1
+9160 next n
+9170 return
+9200 rem cr+lf
+9210 poke 65025,13
+9220 poke 65026,255: rem /strobe 0
+9230 poke 65026,0: rem /strobe 1
+9240 poke 65025,10
+9250 poke 65026,255: rem /strobe 0
+9260 poke 65026,0: rem /strobe 1
+9270 return
+9300 rem ff
+9310 poke 65025,12
+9320 poke 65026,255: rem /strobe 0
+9330 poke 65026,0: rem /strobe 1
+9340 return

@@ -15,7 +15,7 @@ Intel 8255 chips can all be bought supercheap on AliExpress & similar sites. The
 ## Software
 The board is generic and can be used for a multitude of purposes, but its most common usage back in the day was to connect a 1541 drive in a parallel fashion, making it faster when used with software such as [Port-Turbo V1](https://plus4world.powweb.com/software/Port-Turbo_V1) or [Port-Backup](https://plus4world.powweb.com/software/Port-Backup).
 
-A simple program to test all the board I/O pins (in Mode 1) can be found in the Release area.
+A simple program to test all the board I/O pins (in Mode 0) can be found in the Release area.
 
 ## Programming
 The 8255 is a relatively complex chip with 3 different modes of operation. The datasheet is your friend, those for a few different chips are provided in the [doc directory](doc/). Make sure to pick the one corresponding to your target chip and read it carefully.
@@ -61,7 +61,7 @@ If you want to get this board produced, you are recommended to get [the latest r
 Every release is accompanied by its Bill Of Materials (BOM) file and any relevant notes about it, which you are recommended to read carefully.
 
 ## License
-The Plus4i8255 documentation, including the design itself, is copyright &copy; SukkoPera 2024 and is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+The Plus4i8255 documentation, including the design itself, is copyright &copy; SukkoPera 2024-2025 and is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 This documentation is distributed *as is* and WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES whatsoever with respect to its functionality, operability or use, including, without limitation, any implied warranties OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE or infringement. We expressly disclaim any liability whatsoever for any direct, indirect, consequential, incidental or special damages, including, without limitation, lost revenues, lost profits, losses resulting from business interruption or loss of data, regardless of the form of action or legal theory under which the liability may be asserted, even if advised of the possibility or likelihood of such damages.
 
@@ -77,3 +77,7 @@ Also, if you still have to register, [you can use this link](https://www.pcbway.
 You can also buy me a coffee if you want:
 
 <a href='https://ko-fi.com/L3L0U18L' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
+## Thanks
+- Thanks to Ferenc Garay and Dr. János Rohonczy for the original design.
+- Thanks to Marko Šolajić for helping with the parallel port implementation.
