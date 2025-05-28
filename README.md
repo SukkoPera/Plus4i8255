@@ -21,14 +21,39 @@ A simple program to test all the board I/O pins (in Mode 1) can be found in the 
 The 8255 is a relatively complex chip with 3 different modes of operation. The datasheet is your friend, those for a few different chips are provided in the [doc directory](doc/). Make sure to pick the one corresponding to your target chip and read it carefully.
 
 The board exposes the four 8255 registers at $FE00-$FE03:
-|Address | Description
-|-----|----------------|
-|$FE00|Port A Register |
-|$FE01|Port B Register |
-|$FE02|Port C Register |
-|$FE03|Control Register|
+
+|Address| Description    |
+|-------|----------------|
+|$FE00  |Port A Register |
+|$FE01  |Port B Register |
+|$FE02  |Port C Register |
+|$FE03  |Control Register|
 
 Note that, while on some modern chip all registers can be read and written to, for compatibility's sake you should assume that the Control Register can only be written to, as is the case with most (older) 8255 chips.
+
+### PC-Style Parallel Port
+V3 of the board introduces a DB-25 connector implementing an 8-bit parallel port, that can be used for exchanging data with PCs or for printing. It is derived from [Marko Šolajić's zx_spectrum_parallel_interface](https://github.com/msolajic/zx_spectrum_parallel_interface) and uses the same 8255 pins:
+
+| DB-25 Pin | 8255 port   | Function   |
+|:---------:|:-----------:|:----------:|
+| 1         | C3 inverted | /STROBE    |
+| 2         | B0          | Data bit 0 |
+| 3         | B1          | Data bit 1 |
+| 4         | B2          | Data bit 2 |
+| 5         | B3          | Data bit 3 |
+| 6         | B4          | Data bit 4 |
+| 7         | B5          | Data bit 5 |
+| 8         | B6          | Data bit 6 |
+| 9         | B7          | Data bit 7 |
+| 11        | C7          | BUSY       |
+| 17        | Jumper JP2  | /SELECT    |
+| 18-25     | GND         | GND        |
+
+Note that the /STROBE signal is driven through an inverter gate: this is to avoid a spurious /STROBE at startup, since the 8255 defaults to low when a port is switched to output mode and there is no way to prevent that.
+
+Some printers require pin 17 (/SELECT) to be pulled low. In case your printer doesn't work, short jumper JP2 on the back of the board.
+
+Additionally, JP1 can be shorted to provide +5V on pin 14, but only do this if you know what you're doing.
 
 ## Releases
 If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/Plus4i8255/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.
